@@ -26,7 +26,6 @@ export default function App() {
  
   return (
     <View style={styles.container}>
-      <View style={styles.iconbar}></View>
       <View style={styles.appbar}>
         <Text style={styles.title}>Day 06 Assignment</Text>
       </View>
@@ -58,11 +57,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     padding: 0
-  },
-  iconbar: {
-    paddingTop: 10,
-    paddingBottom: 20,
-    backgroundColor: '#8D0089',
   },
   appbar: {
     paddingTop: 20,
