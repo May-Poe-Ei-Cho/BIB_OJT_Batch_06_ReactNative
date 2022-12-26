@@ -26,6 +26,7 @@ export default function App() {
  
   return (
     <View style={styles.container}>
+
       <View style={styles.appbar}>
         <Text style={styles.title}>Day 06 Assignment</Text>
       </View>
@@ -101,7 +102,7 @@ const styles = StyleSheet.create({
   item: {
     padding: 10,
     borderBottomWidth: 1,
-    borderColor: '#ddd',
+    borderColor: '#dddddd',
     marginLeft: 15,
     marginRight: 15,
   }
