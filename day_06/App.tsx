@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
   item: {
     padding: 10,
     borderBottomWidth: 1,
-    borderColor: '#dddddd',
+    borderColor: '#ddd',
     marginLeft: 15,
     marginRight: 15,
   }
